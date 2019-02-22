@@ -1,5 +1,8 @@
 image: gcc:latest
 
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
 before_script:
   - apt-get update --yes
   - apt-get install --yes cmake
