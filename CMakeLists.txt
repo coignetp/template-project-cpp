@@ -22,7 +22,6 @@ add_executable(
 )
 
 # Create the test executable
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/googletest/googletest/include)
 add_executable(
     ${EXECUTABLE_NAME}_test
 
