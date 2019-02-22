@@ -1,6 +1,6 @@
 image: gcc:latest
 
-before-script:
+before_script:
   - apt-get update --yes
   - apt-get install --yes cmake
 
