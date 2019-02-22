@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.1)
+
+# Regrouping all the third_party sources
+add_subdirectory(googletest)
